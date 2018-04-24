@@ -3,3 +3,4 @@
 node_modules/
 main.js
 *.map
+.ds_Store
