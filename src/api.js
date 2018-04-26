@@ -18,9 +18,6 @@ module.exports = {
 
     editMovie: (movie) => {
 
-        console.log(movie.title);
-        console.log(movie.id);
-
         return fetch(`/api/movies/${movie.id}`,
             {
                 method: 'PUT',

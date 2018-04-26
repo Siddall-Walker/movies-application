@@ -33,13 +33,15 @@ function dbChecker() {
                };
 
                omdbApi.get(params, function(err, data) {
-                   // console.log(data);
+                   console.log(data);
                    //console.log(err);
                    if ( data === null){
                        return;
                    }
 
                    newMovie.title = title;
+                    newMovie.id = id;
+                   newMovie.plot = data.Plot;
 
 
                    newMovie.poster = data.Poster;
