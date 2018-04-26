@@ -11,19 +11,22 @@
     <div class="se-pre-con"></div>
 
     <div class="container jumbotron jumbotron-flex banner">
-            <div class="display-3 center logo">JW Siddall Movies</div>
+            <div class="display-4 center logo text-white" style="background-color: #721817;">JW<br>Siddall<br>Movies</div>
     </div>
 
     <nav class="navbar navbar-dark text-light" style="background-color: #721817;">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#addModal" data-whatever="@mdo">
+                Add a movie
+            </button>
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#editModal" data-whatever="@fat">
+                Edit a movie
+            </button>
 
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <h5 class="modal-title text-dark" id="addModalLabel">Add a movie</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
@@ -31,23 +34,66 @@
                         <div class="modal-body">
                             <form>
                                 <div class="form-group">
-                                    <label for="recipient-name" class="col-form-label">Recipient:</label>
-                                    <input type="text" class="form-control" id="recipient-name">
+                                    <label for="Title1" class="col-form-label text-dark">
+                                        Title
+                                    </label>
+                                    <input type="text" class="form-control" id="Title1">
                                 </div>
                                 <div class="form-group">
-                                    <label for="message-text" class="col-form-label">Message:</label>
-                                    <textarea class="form-control" id="message-text"></textarea>
+                                    <label for="Rating1" class="col-form-label text-dark">
+                                        Rating
+                                    </label>
+                                    <input type="text" class="form-control" id="Rating1">
                                 </div>
                             </form>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Send message</button>
+                            <button type="button" class="btn btn-primary" style="background-color: #721817;">Submit</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+            <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-dark" id="editModalLabel">Edit a movie</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="Title2" class="col-form-label text-dark">
+                                        Title
+                                    </label>
+                                    <input type="text" class="form-control" id="Title2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Rating2" class="col-form-label text-dark">
+                                        Rating
+                                    </label>
+                                    <input type="text" class="form-control" id="Rating2">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" style="background-color: #721817;">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-outline-light my-2 my-sm-0">Sort by Title</button>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
     </nav>
 
 
