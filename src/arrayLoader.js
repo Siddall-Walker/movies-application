@@ -1,5 +1,6 @@
 let $ = require("jquery");
-import getMovies from './api.js';
+import {getMovies, addMovies} from './api.js';
+
 const omdbApi = require('omdb-client');
 
 function dbChecker() {
@@ -26,7 +27,7 @@ function dbChecker() {
             <img class="card-img-top" src="${data.Poster}" alt="Card image cap">
             <div class="card-body">
             <h5 class="card-title">${title}</h5>
-            <p class="card-text"> MetaCritic Score: ${data.Ratings[2].Value}</p>
+            <p class="card-text"> Rotton Tomatoes: ${data.Ratings[1].Value}</p>
             </div>
             </div>`;
 

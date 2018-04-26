@@ -1,8 +1,17 @@
 let $ = require('jquery');
 import 'bootstrap';
+import {getMovies,addMovie} from './api.js';
 let omdbApi = require('omdb-client');
 
-function test() {
+const pushObj = {
+        title:'',
+        rating:'',
+        ID:''
+};
+let newMovie = Object.create(pushObj);
+console.log(newMovie);
+
+function search() {
     $('#search').on('click',  () => {
 
         $(".container").empty();
@@ -14,14 +23,26 @@ function test() {
         };
         omdbApi.search(params, function(err, data) {
 
+            console.log(err);
+            console.log(data);
+
 
             let i = 0;
             data.Search.forEach(function(){
 
+                newMovie.title = data.Search[i].Poster;
+                newMovie.ID = data.Search[i].imdbID;
+
+                let poster = `<img class="card-img-top" src="${data.Search[i].Poster}" alt="Card image cap">`;
+
+                if(data.Search[i].Poster === "N/A"){
+                    poster = '';
+                }
+
                 let card  =
 
             `<div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="${data.Search[i].Poster}" alt="Card image cap">
+            ${poster}
             <div class="card-body">
             <h5 class="card-title">${data.Search[i].Title}</h5>
             <p class="card-text"> Year: ${data.Search[i].Year}</p>
@@ -31,9 +52,10 @@ function test() {
                 $(".container").append(card);
 
                 i++;
+                addMovie(newMovie);
             });
         })
     });
 }
 
-module.exports= test();
+module.exports= search();
