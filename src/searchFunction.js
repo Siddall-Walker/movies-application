@@ -6,7 +6,8 @@ let omdbApi = require('omdb-client');
 const pushObj = {
         title:'',
         rating:'',
-        ID:''
+        id:'',
+        poster:''
 };
 let newMovie = Object.create(pushObj);
 console.log(newMovie);
@@ -30,8 +31,9 @@ function search() {
             let i = 0;
             data.Search.forEach(function(){
 
-                newMovie.title = data.Search[i].Poster;
-                newMovie.ID = data.Search[i].imdbID;
+                newMovie.title = data.Search[i].Title;
+                newMovie.id = data.Search[i].imdbID;
+                newMovie.poster = data.Search[i].Poster;
 
                 let poster = `<img class="card-img-top" src="${data.Search[i].Poster}" alt="Card image cap">`;
 
