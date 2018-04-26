@@ -21,7 +21,20 @@ module.exports = {
 
         return fetch(`/api/movies/${movie.id}`,
             {
-                method: 'put',
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(movie)
+            }).then(response => response.json());
+    },
+
+    DeleteMovie: (mid) => {
+
+
+        return fetch(`/api/movies/${mid}`,
+            {
+                method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json'
                 },

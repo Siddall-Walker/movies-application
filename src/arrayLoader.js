@@ -1,7 +1,7 @@
 import {addMovie} from "./api";
 let mid = '';
 let $ = require("jquery");
-import {getMovies, editMovie} from './api.js';
+import {getMovies, editMovie, deleteMovie} from './api.js';
 
 const omdbApi = require('omdb-client');
 
@@ -27,35 +27,44 @@ function dbChecker() {
 
                let params = {
                    apiKey: 'd294c676',
-                   title: title,
+                   id: id,
                    type: 'movie',
                    plot: 'short'
                };
 
                omdbApi.get(params, function(err, data) {
-                   // console.log(data);
+                   console.log(data);
                    //console.log(err);
+                   if ( data === null){
+                       return;
+                   }
 
                    newMovie.title = title;
-                   newMovie.id = data.imdbID;
+
+
                    newMovie.poster = data.Poster;
-                   newMovie.rating = data.Ratings[0].Value;
+
+                   if(data.Ratings.length > 0) {
+                       newMovie.rating = data.Ratings[0].Value;
+                       let rating = `<p class="card-text"> Rotten Tomatoes: ${data.Ratings[0].Value}</p>`;
+
+                   } else {newMovie.rating = "";
+                        let rating = "";
+                   }
+
                    newMovie.plot = data.Plot;
                     mid = data.imdbID;
 
 
 
-                   let rating = `<p class="card-text"> Rotten Tomatoes: ${data.Ratings[0].Value}</p>`;
                    let poster = `<img class="card-img-top" src="${data.Poster}" alt="Card image cap">`
 
                    if(data.Poster === "N/A"){
                        poster = '';
                    }
-                   if(data.Ratings[0].Value === undefined){
-                       rating = `<p class="card-text"> IMDB Score: ${data.Ratings[0].Value}</p>`
-                       newMovie.rating = data.Ratings[0].Value;
 
-                   }
+
+
 
             let card  = `<div class="card" style="width: 18rem;">
             ${poster}
@@ -63,16 +72,26 @@ function dbChecker() {
             <h5 class="card-title">${title}</h5>
             ${rating}
             <p class="card-text">  ${data.Plot}</p>
-            <button class="delete" id="${data.imdbID}"  value="" type="button">Search</button>
+            <button class="delete"   value="${data.imdbID}" type="button">delete</button>
             </div>
             </div>`;
 
-            $(".container").append(card);
+                   $(".container").append(card);
+
+
+
+
+
                    editMovie(newMovie);
-                   $("#data.imdbID").on('click',()=> {
-                       console.log("this works");
-                       let firedButton = $(this).val();
-                       console.log(firedButton);});
+
+
+                   $(".delete").unbind("click").on("click",function() {
+                       let firedButton = $(this).attr('value');
+                       console.log(firedButton);
+                       deleteMovie(firedButton);
+
+
+                   });
 
 
            });
