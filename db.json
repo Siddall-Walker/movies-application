@@ -50,13 +50,6 @@
       "rating": "5.7/10"
     },
     {
-      "title": "Ninja Terminator",
-      "id": "tt0199849",
-      "plot": "Three martial-arts students search for the Golden Ninja Warrior, a statue reputed to have magic powers.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGZiNTczNWItOTdmYy00OTFjLWIwOWUtMmE3Y2QyNzBmZDJkXkEyXkFqcGdeQXVyNzg3NjQyOQ@@._V1_SX300.jpg",
-      "rating": "4.7/10"
-    },
-    {
       "title": "Red Dawn",
       "id": "tt1234719",
       "plot": "A group of teenagers look to save their town from an invasion of North Korean soldiers.",
@@ -69,13 +62,6 @@
       "plot": "It is the dawn of World War III. In mid-western America, a group of teenagers band together to defend their town, and their country, from invading Soviet forces.",
       "poster": "https://ia.media-imdb.com/images/M/MV5BNzgzNjcwMjI3MF5BMl5BanBnXkFtZTcwNDAxNTQyNA@@._V1_SX300.jpg",
       "rating": "6.4/10"
-    },
-    {
-      "title": "Red Dawn",
-      "id": "tt0098214",
-      "plot": "A Claustrophobic experience which involves a Mexican middle class family into the atrocities made by wild and heartless army forces whose main objective seems to be students who do not permit the 1968's Olimpic games' to develop normally.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNmYwMjcwYmQtMDdmMC00YThmLWE4OGMtMzM0OTYwNmQ3NTAwXkEyXkFqcGdeQXVyMzY2MDk0MTk@._V1_SX300.jpg",
-      "rating": "8.1/10"
     },
     {
       "title": "Red Dawn",
@@ -211,13 +197,6 @@
       "rating": "8.3/10"
     },
     {
-      "title": "Blade Runner",
-      "id": "tt0126817",
-      "plot": "You play a blade runner investigating a series of violent replicant crimes, only to discover far more than you bargained for.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWRkYjczZWMtN2Q5NS00YWFmLTk3M2MtNWUwNWRjYzdkMjZhXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
-      "rating": "9.0/10"
-    },
-    {
       "title": "On the Edge of 'Blade Runner'",
       "id": "tt0281011",
       "plot": "About the epic film \"Blade Runner\", giving insights into it's history with interviews of Ridley Scott, the writers and nearly all the cast. Interviews with production staff, giving details ...",
@@ -251,6 +230,76 @@
       "plot": "This is a the full cut of a remake of Blade Runner originally created for Empire Magazine's Done in Sixty Seconds competition. Blade Runner 60 moves the film's action to London, and takes ...",
       "poster": "N/A",
       "rating": "4.4/10"
+    },
+    {
+      "title": "Patton",
+      "id": "tt0066206",
+      "plot": "The World War II phase of the career of the controversial American general, George S. Patton.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmNhZmJhMmYtNjlkMC00MjhjLTk1NzMtMTNlMzYzNjZlMjNiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "rating": "8.0/10"
+    },
+    {
+      "title": "Patton Oswalt: Annihilation",
+      "id": "tt7026230",
+      "plot": "Patton Oswald, despite a personal tragedy, produces his best standup yet. Focusing on the tribulations of the Trump era and life after the loss of a loved one, Patton Oswald continues his journey to contribute joy to the world.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BZGE4NDVjZGQtNzc0Yi00YTE2LWFiN2EtYTNiY2ZiNjliYWQ1XkEyXkFqcGdeQXVyMTk3NDAwMzI@._V1_SX300.jpg",
+      "rating": "7.4/10"
+    },
+    {
+      "title": "Patton Oswalt: My Weakness Is Strong",
+      "id": "tt1503646",
+      "plot": "The critically-acclaimed comedian, actor, writer, and voice of Remy the Rat (the Oscar-winning Ratatouille) takes time out from his many film and television outings to return to the comedy stage for his fourth stand-up special.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNjkwNzU3MF5BMl5BanBnXkFtZTgwMjU5MzA2MDE@._V1_SX300.jpg",
+      "rating": "7.6/10"
+    },
+    {
+      "title": "Patton Oswalt: Talking for Clapping",
+      "id": "tt5457520",
+      "plot": "Patton Oswalt takes the stage in San Francisco, where he talks about San Franciscans, the difficulties of being PC, fatherhood, his worst stand up experience, and the worlds most horrific Birthday Clown.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmMyYzAzMzktOWM4MS00YmI2LThmM2MtNjBkODZkOWQxODNmXkEyXkFqcGdeQXVyNjYzMDA4MTI@._V1_SX300.jpg",
+      "rating": "6.8/10"
+    },
+    {
+      "title": "Patton Oswalt: No Reason to Complain",
+      "id": "tt0846724",
+      "plot": "Stand-up special from Patton Oswalt.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3MjUxODI5NF5BMl5BanBnXkFtZTcwMjcxMTIzMQ@@._V1_SX300.jpg",
+      "rating": "7.7/10"
+    },
+    {
+      "title": "The Last Days of Patton",
+      "id": "tt0091383",
+      "plot": "Following the close of World War II, General George S. Patton is seriously injured in a car accident and not expected to survive. \"The Last Days of Patton\" tells the story of these last few...",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0OTI5MTE1NF5BMl5BanBnXkFtZTcwMTcwOTUyMQ@@._V1_SX300.jpg",
+      "rating": "6.4/10"
+    },
+    {
+      "title": "Patton Oswalt: Finest Hour",
+      "id": "tt2060540",
+      "plot": "In his fourth (and GRAMMY-nominated) full-length special, Patton Oswalt covers a range of topics from how hipsters make the Spam museum sad to the greatness of sweatpants and revisits his attack on KFC Famous Bowls.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyNTUxMTQ3OV5BMl5BanBnXkFtZTgwNDIyNjA2MDE@._V1_SX300.jpg",
+      "rating": "7.6/10"
+    },
+    {
+      "title": "Patton Oswalt: Tragedy Plus Comedy Equals Time",
+      "id": "tt3628334",
+      "plot": "Recorded in Spreckels Theater in San Diego, California, comedian Patton Oswalt returns for his 5th feature-length stand-up comedy special.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ3MTQxOTYzM15BMl5BanBnXkFtZTgwNDMxNDk1MTE@._V1_SX300.jpg",
+      "rating": "7.4/10"
+    },
+    {
+      "title": "Kaada Patton: Romances",
+      "id": "tt1153110",
+      "plot": "Behind the scenes, concert and documentary about the cooperation between the artists Mike Patton and John Kaada.",
+      "poster": "http://ia.media-imdb.com/images/M/MV5BMjE3MjAxNDU1MF5BMl5BanBnXkFtZTcwMzM2MzA3Nw@@._V1_SX300.jpg",
+      "rating": "8.6/10"
+    },
+    {
+      "title": "Patton 360",
+      "id": "tt1409728",
+      "plot": "Noteworthy World War II battles of US General George S. Patton are examined.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BMTI2MjQxNTE0Nl5BMl5BanBnXkFtZTcwMjA1ODc4Mg@@._V1_SX300.jpg",
+      "rating": "7.3/10"
     }
   ]
 }

@@ -74,7 +74,6 @@ function dbChecker() {
 
                    $(".delete").unbind("click").on("click",function() {
                        let firedButton = $(this).attr('value');
-                       console.log(firedButton);
                        deleteMovie(firedButton);
                        $(".container").empty();
                        dbChecker();
