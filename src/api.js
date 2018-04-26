@@ -18,6 +18,8 @@ module.exports = {
 
     editMovie: (movie) => {
 
+        console.log(movie.title);
+        console.log(movie.id);
 
         return fetch(`/api/movies/${movie.id}`,
             {
@@ -29,16 +31,15 @@ module.exports = {
             }).then(response => response.json());
     },
 
-    DeleteMovie: (mid) => {
+    deleteMovie: (mid) => {
 
-
-        return fetch(`/api/movies/${mid}`,
+         fetch(`/api/movies/${mid}`,
             {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify(movie)
+               /* body: JSON.stringify(movie)*/
             }).then(response => response.json());
     },
 };

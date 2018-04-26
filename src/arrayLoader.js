@@ -33,7 +33,7 @@ function dbChecker() {
                };
 
                omdbApi.get(params, function(err, data) {
-                   console.log(data);
+                   // console.log(data);
                    //console.log(err);
                    if ( data === null){
                        return;
