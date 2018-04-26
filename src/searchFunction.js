@@ -10,7 +10,7 @@ const pushObj = {
         poster:''
 };
 let newMovie = Object.create(pushObj);
-console.log(newMovie);
+// console.log(newMovie);
 
 function search() {
     $('#search').on('click',  () => {

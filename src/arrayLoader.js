@@ -1,5 +1,7 @@
+import {addMovie} from "./api";
+let mid = '';
 let $ = require("jquery");
-import {getMovies, addMovies} from './api.js';
+import {getMovies, editMovie} from './api.js';
 
 const omdbApi = require('omdb-client');
 
@@ -31,7 +33,7 @@ function dbChecker() {
                };
 
                omdbApi.get(params, function(err, data) {
-                   console.log(data);
+                   // console.log(data);
                    //console.log(err);
 
                    newMovie.title = title;
@@ -39,6 +41,7 @@ function dbChecker() {
                    newMovie.poster = data.Poster;
                    newMovie.rating = data.Ratings[0].Value;
                    newMovie.plot = data.Plot;
+                    mid = data.imdbID;
 
 
 
@@ -59,17 +62,32 @@ function dbChecker() {
             <div class="card-body">
             <h5 class="card-title">${title}</h5>
             ${rating}
-            <p class="card-text"> Rotten Tomatoes: ${data.Plot}</p>
+            <p class="card-text">  ${data.Plot}</p>
+            <button class="delete" id="${data.imdbID}"  value="" type="button">Search</button>
             </div>
             </div>`;
 
             $(".container").append(card);
+                   editMovie(newMovie);
+                   $("#data.imdbID").on('click',()=> {
+                       console.log("this works");
+                       let firedButton = $(this).val();
+                       console.log(firedButton);});
 
 
            });
-       })
-   })
-}
+
+           });
+
+
+       });
+
+
+
+
+    }
+
+
 
 module.exports= dbChecker();
 
