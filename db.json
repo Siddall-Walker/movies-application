@@ -8,13 +8,6 @@
       "rating": "8.6/10"
     },
     {
-      "title": "Terminator 2",
-      "id": "tt0103064",
-      "plot": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her teenage son, John Connor, from a more advanced and powerful cyborg.",
-      "poster": "https://ia.media-imdb.com/images/M/MV5BMGU2NzRmZjUtOGUxYS00ZjdjLWEwZWItY2NlM2JhNjkxNTFmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-      "rating": "8.5/10"
-    },
-    {
       "title": "The Terminator",
       "id": "tt0088247",
       "plot": "A seemingly indestructible humanoid cyborg is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs.",
@@ -36,13 +29,6 @@
       "rating": "6.6/10"
     },
     {
-      "title": "Terminator: The Sarah Connor Chronicles",
-      "id": "tt0851851",
-      "plot": "Set after the events in Terminator 2 (1991), Sarah Connor and her son, John, try to stay under-the-radar from the government, as they plot to destroy the computer network, Skynet, in hopes of preventing Armageddon.",
-      "poster": "https://ia.media-imdb.com/images/M/MV5BZGE2ZDgyOWUtNzdiNS00OTI3LTkwZGQtMTMwNzM4YWUxNGNhXkEyXkFqcGdeQXVyNjU2NjA5NjM@._V1_SX300.jpg",
-      "rating": "7.7/10"
-    },
-    {
       "title": "Terminator 3: Rise of the Machines",
       "id": "tt0364056",
       "plot": "You are The Terminator in this game bases on the movie that is programmes by SkyNet to destroy Mankind before John Connor can re-programme a Terminator to send back in time to protect his younger self.",
@@ -55,13 +41,6 @@
       "plot": "When John Connor, leader of the human resistance, sends Sgt. Kyle Reese back to 1984 to protect Sarah Connor and safeguard the future, an unexpected turn of events creates a fractured timeline.",
       "poster": "https://ia.media-imdb.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_SX300.jpg",
       "rating": "6.5/10"
-    },
-    {
-      "title": "Terminator 2: Judgment Day",
-      "id": "tt0244839",
-      "plot": "A video game based on Terminator 2: Judgment Day (1991).",
-      "poster": "N/A",
-      "rating": "8.2/10"
     },
     {
       "title": "Lady Terminator",
@@ -148,13 +127,6 @@
       "rating": "5.7/10"
     },
     {
-      "title": "Casablanca Express",
-      "id": "tt0094843",
-      "plot": "In 1942, a commando is assigned to protect Winston Churchill when it is learned that the Nazis are plotting to kidnap him.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTkyMDMxNDcyM15BMl5BanBnXkFtZTcwOTU5MzcyMQ@@._V1_SX300.jpg",
-      "rating": "4.1/10"
-    },
-    {
       "title": "You Must Remember This: A Tribute to 'Casablanca'",
       "id": "tt0280526",
       "plot": "The making of 'Casablanca'.",
@@ -167,6 +139,118 @@
       "plot": "Film about a pair of traveling entertainers and con-men and their problems with jobs, money and women. We follow them in a period there it goes downhill with engagements. It's hard for them...",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmRjYzkxOWMtMzgxYy00MjdiLWE4ZDgtODA2MWNlMDI3OTIyXkEyXkFqcGdeQXVyMzU0NzkwMDg@._V1_SX300.jpg",
       "rating": "5.9/10"
+    },
+    {
+      "title": "The Hi-Lo Country",
+      "id": "tt0120699",
+      "plot": "Two cowboys have their friendship tested when they fall for the same girl.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDZhMTg3Y2QtM2Q3MC00NWI5LWE3MjYtZmRjMTcwYWNhNmU2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "rating": "6.1/10"
+    },
+    {
+      "title": "Hi, Mom!",
+      "id": "tt0065836",
+      "plot": "A Vietnam vet moves into an apartment and views in other people's windows across the street, meets one of the women, and discovers black theater.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BNDYxMmM3NmQtZjViMy00Mjc0LWIzOTYtMjkyMjFlNjBiNGI5XkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+      "rating": "6.2/10"
+    },
+    {
+      "title": "Pyaar To Hona Hi Tha",
+      "id": "tt0173081",
+      "plot": "Sanjana was Rahul's fiancé. When Rahul was gone to India for official trip He is attracted to Nisha, and announces that he will be marrying her soon. Sanjana does not take kindly to this, ...",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2MDcwMTM0N15BMl5BanBnXkFtZTcwNTI5MDAzMQ@@._V1_SX300.jpg",
+      "rating": "6.7/10"
+    },
+    {
+      "title": "Hi Hi Puffy AmiYumi",
+      "id": "tt0407398",
+      "plot": "Hi Hi Puffy Amiyumi Follows two famous Japanese rock stars, their fans, and the adventures they go on.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE0MDU3ODM2Nl5BMl5BanBnXkFtZTcwOTkxMDEzMQ@@._V1_SX300.jpg",
+      "rating": "6.2/10"
+    },
+    {
+      "title": "Jhootha Hi Sahi",
+      "id": "tt1322257",
+      "plot": "A suicidal woman's \"final\" call mistakenly connects her to a man who gives her something to live for.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BODMyMGZhNzAtMjUwNS00MjhiLTg0YzQtMWQ4ZjRhZmMwMTk1XkEyXkFqcGdeQXVyMzc0NzU5MTc@._V1_SX300.jpg",
+      "rating": "6.1/10"
+    },
+    {
+      "title": "Hi, Tereska",
+      "id": "tt0288491",
+      "plot": "A sensitive teenage girl from a poor family befriends a cynical schoolmate, who shows her how to smoke, drink, have sex and steal. Tereska's life heads towards a catastrophe.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYTQxMWQyNWMtYTAyOS00NzM3LWIwMjctMWE5MjU4MTU5NzRjXkEyXkFqcGdeQXVyMTc4MzI2NQ@@._V1_SX300.jpg",
+      "rating": "7.2/10"
+    },
+    {
+      "title": "Blade Runner",
+      "id": "tt0083658",
+      "plot": "A blade runner must pursue and try to terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "rating": "8.2/10"
+    },
+    {
+      "title": "Blade Runner 2049",
+      "id": "tt1856101",
+      "plot": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_SX300.jpg",
+      "rating": "8.1/10"
+    },
+    {
+      "title": "Blade Runner: Black Out 2022",
+      "id": "tt7428594",
+      "plot": "In 2022, a powerful weapon causes a global blackout that has massive implications all over the world.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BNGZiYTllYmItNDQxMC00MmY1LTgyYTQtOTFjMmIwZmRkOTE0XkEyXkFqcGdeQXVyMTkwMjA4NzY@._V1_SX300.jpg",
+      "rating": "7.4/10"
+    },
+    {
+      "title": "Dangerous Days: Making Blade Runner",
+      "id": "tt1080585",
+      "plot": "The definitive three-and-a-half hour documentary about the troubled creation and enduring legacy of the science fiction classic Blade Runner (1982), culled from 80 interviews and hours of never-before-seen outtakes and lost footage.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzI2NjU0MjY4MF5BMl5BanBnXkFtZTgwMjM0NDQzNjE@._V1_SX300.jpg",
+      "rating": "8.3/10"
+    },
+    {
+      "title": "Blade Runner",
+      "id": "tt0126817",
+      "plot": "You play a blade runner investigating a series of violent replicant crimes, only to discover far more than you bargained for.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWRkYjczZWMtN2Q5NS00YWFmLTk3M2MtNWUwNWRjYzdkMjZhXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
+      "rating": "9.0/10"
+    },
+    {
+      "title": "On the Edge of 'Blade Runner'",
+      "id": "tt0281011",
+      "plot": "About the epic film \"Blade Runner\", giving insights into it's history with interviews of Ridley Scott, the writers and nearly all the cast. Interviews with production staff, giving details ...",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BZWJmOThjMjItNzE4Ni00YmY3LTk2NzEtMTJlYTQxZGE1MDYyXkEyXkFqcGdeQXVyMTM3NzQ5NzQ@._V1_SX300.jpg",
+      "rating": "7.7/10"
+    },
+    {
+      "title": "Oscar Pistorius: Blade Runner Killer",
+      "id": "tt7445510",
+      "plot": "A dramatized account of South African gold-medalist Paralympian Oscar Pistorius' rise to fame and his fairytale romance with model Reeva Steenkamp that ended in her untimely death on ...",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTYxZjU5YTgtN2NmOC00NmQ0LTk4MmEtYjc0YmI5MTI0ZDFhXkEyXkFqcGdeQXVyNTMzNDY2NzU@._V1_SX300.jpg",
+      "rating": "4.7/10"
+    },
+    {
+      "title": "Blade Runner: Deleted and Alternate Scenes",
+      "id": "tt1165254",
+      "plot": "A newly-assembled narrative of 24 deleted and alternate scenes from the film Blade Runner (1982), presented as an abridged version of the film itself.",
+      "poster": "N/A",
+      "rating": "8.7/10"
+    },
+    {
+      "title": "The Making of 'Blade Runner'",
+      "id": "tt0162461",
+      "plot": "A documentary on the production of the 1997 hit video game \"Blade Runner,\" based on the movie of the same name.",
+      "poster": "N/A",
+      "rating": "6.9/10"
+    },
+    {
+      "title": "Blade Runner 60: Director's Cut",
+      "id": "tt1846491",
+      "plot": "This is a the full cut of a remake of Blade Runner originally created for Empire Magazine's Done in Sixty Seconds competition. Blade Runner 60 moves the film's action to London, and takes ...",
+      "poster": "N/A",
+      "rating": "4.4/10"
     }
   ]
 }

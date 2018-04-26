@@ -1,6 +1,6 @@
 let $ = require('jquery');
 import 'bootstrap';
-import {getMovies,addMovie} from './api.js';
+import {addMovie} from './api.js';
 let omdbApi = require('omdb-client');
 
 const pushObj = {
@@ -10,7 +10,6 @@ const pushObj = {
         poster:''
 };
 let newMovie = Object.create(pushObj);
-// console.log(newMovie);
 
 function search() {
     $('#search').on('click',  () => {
@@ -18,15 +17,12 @@ function search() {
         $(".container").empty();
 
         let inputData = $('#input-box').val();
+
         let params = {
             apiKey: 'd294c676',
             query: inputData,
         };
         omdbApi.search(params, function(err, data) {
-
-            console.log(err);
-            console.log(data);
-
 
             let i = 0;
             data.Search.forEach(function(){
@@ -59,5 +55,4 @@ function search() {
         })
     });
 }
-
 module.exports= search();
