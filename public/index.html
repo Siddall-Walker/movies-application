@@ -14,70 +14,99 @@
             <div class="display-3 center logo">JW Siddall Movies</div>
     </div>
 
+    <nav class="navbar navbar-dark text-light" style="background-color: #721817;">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open modal for @mdo</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Open modal for @fat</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Open modal for @getbootstrap</button>
 
-    <div>
-        <nav class="navbar navbar-dark text-light" style="background-color: #721817;">
-            <p>
-                <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseMe1" aria-expanded="false" aria-controls="collapseMe3">
-                    Add
-                </button>
-
-                <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseMe2" aria-expanded="false" aria-controls="collapseMe2">
-                    Edit
-                </button>
-
-                <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseMe3" aria-expanded="false" aria-controls="collapseMe3">
-                    Delete
-                </button>
-            </p>
-
-            <!--Add content here -->
-            <div class="row">
-                <div class="col">
-                    <div class="collapse multi-collapse" id="collapseMe1">
-                        <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message-text" class="col-form-label">Message:</label>
+                                    <textarea class="form-control" id="message-text"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
                         </div>
                     </div>
                 </div>
-
-                <!--Edit content here -->
-                <div class="col">
-                    <div class="collapse multi-collapse" id="collapseMe2">
-                        <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
-                    </div>
-                </div>
-
-                <!--Delete content here -->
-                <div class="col">
-                    <div class="collapse multi-collapse" id="collapseMe3">
-                        <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
-                    </div>
-                </div>
-
             </div>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2 justify-content-right" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </nav>
-    </div>
+        </div>
+    </nav>
+
 
     <!--<div>-->
         <!--<nav class="navbar navbar-dark text-light" style="background-color: #721817;">-->
-            <!--<a class="navbar-brand">Add</a>-->
-            <!--<a class="navbar-brand">Edit</a>-->
-            <!--<a class="navbar-brand">Delete</a>-->
-                <!--<form class="form-inline">-->
+            <!--<p>-->
+                <!--<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseMe1" aria-expanded="false" aria-controls="collapseMe3">-->
+                    <!--Add-->
+                <!--</button>-->
+
+                <!--<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseMe2" aria-expanded="false" aria-controls="collapseMe2">-->
+                    <!--Edit-->
+                <!--</button>-->
+
+                <!--<button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseMe3" aria-expanded="false" aria-controls="collapseMe3">-->
+                    <!--Delete-->
+                <!--</button>-->
+            <!--</p>-->
+
+            <!--&lt;!&ndash;Add content here &ndash;&gt;-->
+            <!--<div class="row">-->
+                <!--<div class="col">-->
+                    <!--<div class="collapse multi-collapse" id="collapseMe1">-->
+                        <!--<div class="card card-body">-->
+                            <!--<form class="text-dark">-->
+                                <!--Movie Title: <input type="text" name="fname"><br>-->
+                                <!--Rotten Tomatoes Rating: <input type="text" name="lname"><br>-->
+                                <!--<input type="submit" value="Submit">-->
+                            <!--</form>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--&lt;!&ndash;Edit content here &ndash;&gt;-->
+                <!--<div class="col">-->
+                    <!--<div class="collapse multi-collapse" id="collapseMe2">-->
+                        <!--<div class="card card-body">-->
+                            <!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--&lt;!&ndash;Delete content here &ndash;&gt;-->
+                <!--<div class="col">-->
+                    <!--<div class="collapse multi-collapse" id="collapseMe3">-->
+                        <!--<div class="card card-body">-->
+                            <!--Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+            <!--</div>-->
+            <!--<form class="form-inline">-->
                 <!--<input class="form-control mr-sm-2 justify-content-right" type="search" placeholder="Search" aria-label="Search">-->
-                    <!--<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>-->
-                <!--</form>-->
+                <!--<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>-->
+            <!--</form>-->
         <!--</nav>-->
     <!--</div>-->
+
 
       <div id="movies" class="container">
         <div class="row my-5">
