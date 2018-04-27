@@ -12,23 +12,6 @@ dbChecker();
 
 $(".se-pre-con").fadeOut("slow");
 
-// $('#add').click(function () {
-//     $(".se-pre-con").fadeOut("slow");
-//     let title = $('#Title1').val();
-//     let rating = $('#Rating1').val();
-//
-//     let movie = {};
-//     movie.title = title;
-//     movie.rating = rating;
-//
-//     let result = movies.addMovie(movie).then(newMovie => {
-//         console.log(newMovie);
-//         // $('#movies').append(newMovie);
-//         // dbChecker();
-//     });
-//
-// });
-
 
 $('#edit').click(function () {
     $(".se-pre-con").fadeOut("slow");
@@ -62,8 +45,3 @@ $('#search').on('click',  (event) => {
         movies.addMovie(newMovie);
     });
 });
-
-// Title
-// Year
-// Poster
-// imdbID
