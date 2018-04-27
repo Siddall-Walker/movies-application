@@ -39,7 +39,7 @@ function search() {
 
                 let card  =
 
-            `<div class="card" style="width: 18rem;">
+            `<div class="card shadows" style="width: 18rem;">
             ${poster}
             <div class="card-body">
             <h5 class="card-title">${data.Search[i].Title}</h5>
@@ -55,4 +55,4 @@ function search() {
         })
     });
 }
-module.exports= search();
+module.exports= search;

@@ -11,14 +11,14 @@
     <div class="se-pre-con"></div>
 
     <div class="container jumbotron jumbotron-flex banner">
-            <div class="display-4 center logo text-white" style="background-color: #721817;">JW<br>Siddall<br>Movies</div>
+            <div class="display-4 center logo text-white shadows" style="background-color: #721817;">JW<br>Siddall<br>Movies</div>
     </div>
 
     <nav class="navbar navbar-dark text-light" style="background-color: #721817;">
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#addModal" data-whatever="@mdo">
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#addModal" data-whatever="Add">
                 Add a movie
             </button>
-            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#editModal" data-whatever="@fat">
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#editModal" data-whatever="Edit">
                 Edit a movie
             </button>
 
@@ -35,13 +35,13 @@
                             <form>
                                 <div class="form-group">
                                     <label for="Title1" class="col-form-label text-dark">
-                                        Title
+                                        Title:
                                     </label>
                                     <input type="text" class="form-control" id="Title1">
                                 </div>
                                 <div class="form-group">
                                     <label for="Rating1" class="col-form-label text-dark">
-                                        Rating
+                                        Rating 1-10:
                                     </label>
                                     <input type="text" class="form-control" id="Rating1">
                                 </div>
@@ -49,7 +49,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary" style="background-color: #721817;">Submit</button>
+                            <button type="button" class="btn btn-primary" style="background-color: #721817;" id="add">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -68,13 +68,13 @@
                             <form>
                                 <div class="form-group">
                                     <label for="Title2" class="col-form-label text-dark">
-                                        Title
+                                        Title:
                                     </label>
                                     <input type="text" class="form-control" id="Title2">
                                 </div>
                                 <div class="form-group">
                                     <label for="Rating2" class="col-form-label text-dark">
-                                        Rating
+                                        Rating 1-10:
                                     </label>
                                     <input type="text" class="form-control" id="Rating2">
                                 </div>
@@ -82,7 +82,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary" style="background-color: #721817;">Submit</button>
+                            <button type="button" class="btn btn-primary" style="background-color: #721817;" id="edit">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -91,8 +91,8 @@
             <button type="submit" class="btn btn-outline-light my-2 my-sm-0">Sort by Title</button>
 
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="input-box">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="search">Search</button>
             </form>
     </nav>
 

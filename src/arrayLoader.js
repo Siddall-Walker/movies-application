@@ -15,13 +15,13 @@ let newMovie = Object.create(pushObj);
 
 function dbChecker() {
 
-   return getMovies().then( (data)=> {
+   return getMovies().then( (movies)=> {
 
-           data.forEach( (data)=> {
+           movies.forEach( (movie)=> {
 
-               let title = data.title;
-               let rating = data.rating;
-               let id = data.id;
+               let title = movie.title;
+               let rating = movie.rating;
+               let id = movie.id;
 
                let params = {
                    apiKey: 'd294c676',
@@ -35,6 +35,8 @@ function dbChecker() {
                    if ( data === null){
                        return;
                    }
+
+                   var newMovie = {};
 
                     newMovie.title = title;
                     newMovie.id = id;
@@ -58,7 +60,7 @@ function dbChecker() {
                        poster = '';
                    }
 
-                    let card  = `<div class="card" style="width: 18rem;">
+                    let card  = `<div class="card shadows" style="width: 18rem;">
                     ${poster}
                     <div class="card-body">
                     <h5 class="card-title">${title}</h5>
@@ -68,7 +70,7 @@ function dbChecker() {
                     </div>
                     </div>`;
 
-                    $(".container").append(card);
+                    $("#movies").append(card);
 
                    editMovie(newMovie);
 
@@ -84,4 +86,4 @@ function dbChecker() {
            });
    });
 }
-module.exports= dbChecker();
+module.exports= dbChecker;

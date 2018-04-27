@@ -6,6 +6,8 @@ module.exports = {
 
 
     addMovie: (movie) => {
+        // call idbm
+    console.log(movie);
     return fetch(`/api/movies`,
         {
             method: 'post',

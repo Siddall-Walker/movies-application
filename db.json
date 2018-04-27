@@ -50,13 +50,6 @@
       "rating": "5.7/10"
     },
     {
-      "title": "Ninja Terminator",
-      "id": "tt0199849",
-      "plot": "Three martial-arts students search for the Golden Ninja Warrior, a statue reputed to have magic powers.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGZiNTczNWItOTdmYy00OTFjLWIwOWUtMmE3Y2QyNzBmZDJkXkEyXkFqcGdeQXVyNzg3NjQyOQ@@._V1_SX300.jpg",
-      "rating": "4.7/10"
-    },
-    {
       "title": "Red Dawn",
       "id": "tt1234719",
       "plot": "A group of teenagers look to save their town from an invasion of North Korean soldiers.",
@@ -251,6 +244,14 @@
       "plot": "This is a the full cut of a remake of Blade Runner originally created for Empire Magazine's Done in Sixty Seconds competition. Blade Runner 60 moves the film's action to London, and takes ...",
       "poster": "N/A",
       "rating": "4.4/10"
+    },
+    {
+      "title": "Star Trek",
+      "id": "rJmgp0epz"
+    },
+    {
+      "title": "Star Trek IV",
+      "id": "S1W7a0xpz"
     }
   ]
 }
