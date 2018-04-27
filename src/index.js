@@ -6,7 +6,7 @@ import 'bootstrap';
 
 import dbChecker from './arrayLoader.js';
 import getMovies from './api.js';
-import test from './searchFunction.js';
+import search from './searchFunction.js';
 
 
 $(".se-pre-con").fadeOut("slow");
