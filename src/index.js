@@ -7,30 +7,27 @@ import 'bootstrap';
 import dbChecker from './arrayLoader.js';
 import movies from './api.js';
 import search from './searchFunction.js';
-// import getMovies from './api.js';
-// import editMovie from './api.js';
-// import addMovie from './api.js';
 
 dbChecker();
 
 $(".se-pre-con").fadeOut("slow");
 
-$('#add').click(function () {
-    $(".se-pre-con").fadeOut("slow");
-    let title = $('#Title1').val();
-    let rating = $('#Rating1').val();
-
-    let movie = {};
-    movie.title = title;
-    movie.rating = rating;
-
-    let result = movies.addMovie(movie).then(newMovie => {
-        console.log(newMovie);
-        // $('#movies').append(newMovie);
-        // dbChecker();
-    });
-
-});
+// $('#add').click(function () {
+//     $(".se-pre-con").fadeOut("slow");
+//     let title = $('#Title1').val();
+//     let rating = $('#Rating1').val();
+//
+//     let movie = {};
+//     movie.title = title;
+//     movie.rating = rating;
+//
+//     let result = movies.addMovie(movie).then(newMovie => {
+//         console.log(newMovie);
+//         // $('#movies').append(newMovie);
+//         // dbChecker();
+//     });
+//
+// });
 
 
 $('#edit').click(function () {
@@ -43,7 +40,30 @@ $('#edit').click(function () {
     });
 });
 
-console.log(search);
+$('#search').on('click',  (event) => {
+    event.preventDefault();
+    $(".se-pre-con").fadeOut("slow");
+    search()
 
+    // adds event listeners to elements w/ .addToCollection (add to my collection button)
+    $("#movies").on('click', '.addToCollection', (event) => {
 
+        let newMovie = {};
 
+        let movieCard = $(event.target).parent().parent();
+
+        console.log(movieCard.children("img").attr('src'));
+
+        newMovie.id = movieCard.children().last().children("input").attr('id');
+        newMovie.title = movieCard.children().last().children("h5").text();
+        newMovie.year = movieCard.children().last().children("p").text();
+        newMovie.poster = movieCard.children("img").attr('src');
+
+        movies.addMovie(newMovie);
+    });
+});
+
+// Title
+// Year
+// Poster
+// imdbID

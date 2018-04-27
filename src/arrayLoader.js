@@ -8,7 +8,6 @@ const pushObj = {
     title:'',
     id:'',
     poster:'',
-    rating:'',
     plot:'',
 };
 let newMovie = Object.create(pushObj);

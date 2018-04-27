@@ -246,12 +246,11 @@
       "rating": "4.4/10"
     },
     {
-      "title": "Star Trek",
-      "id": "rJmgp0epz"
-    },
-    {
-      "title": "Star Trek IV",
-      "id": "S1W7a0xpz"
+      "title": "Tarzan the Ape Man",
+      "id": "tt0023551",
+      "plot": "A trader and his daughter set off in search of the fabled graveyard of the elephants in deepest Africa, only to encounter a wild man raised by apes.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BMzQzMzUzMDg5NF5BMl5BanBnXkFtZTgwNDIzMDMyMjE@._V1_SX300.jpg",
+      "rating": "7.2/10"
     }
   ]
 }
