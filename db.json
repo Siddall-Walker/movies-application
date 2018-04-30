@@ -36,13 +36,6 @@
       "rating": "6.3/10"
     },
     {
-      "title": "Terminator Genisys",
-      "id": "tt1340138",
-      "plot": "When John Connor, leader of the human resistance, sends Sgt. Kyle Reese back to 1984 to protect Sarah Connor and safeguard the future, an unexpected turn of events creates a fractured timeline.",
-      "poster": "https://ia.media-imdb.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_SX300.jpg",
-      "rating": "6.5/10"
-    },
-    {
       "title": "Lady Terminator",
       "id": "tt0095483",
       "plot": "The spirit of an ancient evil queen posesses the body of a young anthropological student, who then goes on a murderous rampage.",
@@ -76,13 +69,6 @@
       "plot": "N/A",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDczNDBiMzAtZDk0NC00ZTEyLWIyZDEtYWZhZDA4OWE1YTBlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTk2MzU2ODE@._V1_SX300.jpg",
       "rating": "6.5/10"
-    },
-    {
-      "title": "Red's Breakfast 2: Dawn of the Red",
-      "id": "tt0280067",
-      "plot": "Loveable serial killer, \"Red Toole\" meets his soul-mate \"Violet\". They fall instantly in love...and murder a Greek architecht. Tons of romantic fun for everyone!",
-      "poster": "N/A",
-      "rating": "5.7/10"
     },
     {
       "title": "Red Darkness Before Dawn",
@@ -251,6 +237,20 @@
       "plot": "A trader and his daughter set off in search of the fabled graveyard of the elephants in deepest Africa, only to encounter a wild man raised by apes.",
       "poster": "https://ia.media-imdb.com/images/M/MV5BMzQzMzUzMDg5NF5BMl5BanBnXkFtZTgwNDIzMDMyMjE@._V1_SX300.jpg",
       "rating": "7.2/10"
+    },
+    {
+      "title": "Planet of the Apes",
+      "id": "tt0133152",
+      "plot": "In 2029, an Air Force astronaut crash-lands on a mysterious planet where evolved, talking apes dominate a race of primitive humans.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BY2RlMDhlY2MtMjQ1Zi00NzI5LTgxOTgtZjliNWMzYTY3NWZkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "rating": "5.7/10"
+    },
+    {
+      "title": "Cinderella",
+      "id": "tt0042332",
+      "plot": "When Cinderella's cruel stepmother prevents her from attending the Royal Ball, she gets some unexpected help from the lovable mice Gus and Jaq, and from her Fairy Godmother.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI5NTcxMjE5N15BMl5BanBnXkFtZTgwNzYyNTM3MjE@._V1_SX300.jpg",
+      "rating": "7.3/10"
     }
   ]
 }
