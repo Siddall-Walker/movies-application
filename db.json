@@ -36,13 +36,6 @@
       "rating": "6.3/10"
     },
     {
-      "title": "Terminator Genisys",
-      "id": "tt1340138",
-      "plot": "When John Connor, leader of the human resistance, sends Sgt. Kyle Reese back to 1984 to protect Sarah Connor and safeguard the future, an unexpected turn of events creates a fractured timeline.",
-      "poster": "https://ia.media-imdb.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_SX300.jpg",
-      "rating": "6.5/10"
-    },
-    {
       "title": "Lady Terminator",
       "id": "tt0095483",
       "plot": "The spirit of an ancient evil queen posesses the body of a young anthropological student, who then goes on a murderous rampage.",
@@ -65,17 +58,17 @@
     },
     {
       "title": "Red Dawn",
+      "id": "tt0098214",
+      "plot": "A Claustrophobic experience which involves a Mexican middle class family into the atrocities made by wild and heartless army forces whose main objective seems to be students who do not permit the 1968's Olimpic games' to develop normally.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNmYwMjcwYmQtMDdmMC00YThmLWE4OGMtMzM0OTYwNmQ3NTAwXkEyXkFqcGdeQXVyMzY2MDk0MTk@._V1_SX300.jpg",
+      "rating": "8.1/10"
+    },
+    {
+      "title": "Red Dawn",
       "id": "tt1885182",
       "plot": "N/A",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDczNDBiMzAtZDk0NC00ZTEyLWIyZDEtYWZhZDA4OWE1YTBlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTk2MzU2ODE@._V1_SX300.jpg",
       "rating": "6.5/10"
-    },
-    {
-      "title": "Red's Breakfast 2: Dawn of the Red",
-      "id": "tt0280067",
-      "plot": "Loveable serial killer, \"Red Toole\" meets his soul-mate \"Violet\". They fall instantly in love...and murder a Greek architecht. Tons of romantic fun for everyone!",
-      "poster": "N/A",
-      "rating": "5.7/10"
     },
     {
       "title": "Red Darkness Before Dawn",
@@ -197,6 +190,13 @@
       "rating": "8.3/10"
     },
     {
+      "title": "Blade Runner",
+      "id": "tt0126817",
+      "plot": "You play a blade runner investigating a series of violent replicant crimes, only to discover far more than you bargained for.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BYWRkYjczZWMtN2Q5NS00YWFmLTk3M2MtNWUwNWRjYzdkMjZhXkEyXkFqcGdeQXVyNjExODE1MDc@._V1_SX300.jpg",
+      "rating": "9.0/10"
+    },
+    {
       "title": "On the Edge of 'Blade Runner'",
       "id": "tt0281011",
       "plot": "About the epic film \"Blade Runner\", giving insights into it's history with interviews of Ridley Scott, the writers and nearly all the cast. Interviews with production staff, giving details ...",
@@ -232,74 +232,39 @@
       "rating": "4.4/10"
     },
     {
-      "title": "Patton",
-      "id": "tt0066206",
-      "plot": "The World War II phase of the career of the controversial American general, George S. Patton.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMmNhZmJhMmYtNjlkMC00MjhjLTk1NzMtMTNlMzYzNjZlMjNiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-      "rating": "8.0/10"
+      "title": "Tarzan the Ape Man",
+      "id": "tt0023551",
+      "plot": "A trader and his daughter set off in search of the fabled graveyard of the elephants in deepest Africa, only to encounter a wild man raised by apes.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BMzQzMzUzMDg5NF5BMl5BanBnXkFtZTgwNDIzMDMyMjE@._V1_SX300.jpg",
+      "rating": "7.2/10"
     },
     {
-      "title": "Patton Oswalt: Annihilation",
-      "id": "tt7026230",
-      "plot": "Patton Oswald, despite a personal tragedy, produces his best standup yet. Focusing on the tribulations of the Trump era and life after the loss of a loved one, Patton Oswald continues his journey to contribute joy to the world.",
-      "poster": "https://ia.media-imdb.com/images/M/MV5BZGE4NDVjZGQtNzc0Yi00YTE2LWFiN2EtYTNiY2ZiNjliYWQ1XkEyXkFqcGdeQXVyMTk3NDAwMzI@._V1_SX300.jpg",
-      "rating": "7.4/10"
+      "title": "Planet of the Apes",
+      "id": "tt0133152",
+      "plot": "In 2029, an Air Force astronaut crash-lands on a mysterious planet where evolved, talking apes dominate a race of primitive humans.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BY2RlMDhlY2MtMjQ1Zi00NzI5LTgxOTgtZjliNWMzYTY3NWZkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "rating": "5.7/10"
     },
     {
-      "title": "Patton Oswalt: My Weakness Is Strong",
-      "id": "tt1503646",
-      "plot": "The critically-acclaimed comedian, actor, writer, and voice of Remy the Rat (the Oscar-winning Ratatouille) takes time out from his many film and television outings to return to the comedy stage for his fourth stand-up special.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNjkwNzU3MF5BMl5BanBnXkFtZTgwMjU5MzA2MDE@._V1_SX300.jpg",
-      "rating": "7.6/10"
-    },
-    {
-      "title": "Patton Oswalt: Talking for Clapping",
-      "id": "tt5457520",
-      "plot": "Patton Oswalt takes the stage in San Francisco, where he talks about San Franciscans, the difficulties of being PC, fatherhood, his worst stand up experience, and the worlds most horrific Birthday Clown.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmMyYzAzMzktOWM4MS00YmI2LThmM2MtNjBkODZkOWQxODNmXkEyXkFqcGdeQXVyNjYzMDA4MTI@._V1_SX300.jpg",
-      "rating": "6.8/10"
-    },
-    {
-      "title": "Patton Oswalt: No Reason to Complain",
-      "id": "tt0846724",
-      "plot": "Stand-up special from Patton Oswalt.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk3MjUxODI5NF5BMl5BanBnXkFtZTcwMjcxMTIzMQ@@._V1_SX300.jpg",
-      "rating": "7.7/10"
-    },
-    {
-      "title": "The Last Days of Patton",
-      "id": "tt0091383",
-      "plot": "Following the close of World War II, General George S. Patton is seriously injured in a car accident and not expected to survive. \"The Last Days of Patton\" tells the story of these last few...",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0OTI5MTE1NF5BMl5BanBnXkFtZTcwMTcwOTUyMQ@@._V1_SX300.jpg",
-      "rating": "6.4/10"
-    },
-    {
-      "title": "Patton Oswalt: Finest Hour",
-      "id": "tt2060540",
-      "plot": "In his fourth (and GRAMMY-nominated) full-length special, Patton Oswalt covers a range of topics from how hipsters make the Spam museum sad to the greatness of sweatpants and revisits his attack on KFC Famous Bowls.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEyNTUxMTQ3OV5BMl5BanBnXkFtZTgwNDIyNjA2MDE@._V1_SX300.jpg",
-      "rating": "7.6/10"
-    },
-    {
-      "title": "Patton Oswalt: Tragedy Plus Comedy Equals Time",
-      "id": "tt3628334",
-      "plot": "Recorded in Spreckels Theater in San Diego, California, comedian Patton Oswalt returns for his 5th feature-length stand-up comedy special.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ3MTQxOTYzM15BMl5BanBnXkFtZTgwNDMxNDk1MTE@._V1_SX300.jpg",
-      "rating": "7.4/10"
-    },
-    {
-      "title": "Kaada Patton: Romances",
-      "id": "tt1153110",
-      "plot": "Behind the scenes, concert and documentary about the cooperation between the artists Mike Patton and John Kaada.",
-      "poster": "http://ia.media-imdb.com/images/M/MV5BMjE3MjAxNDU1MF5BMl5BanBnXkFtZTcwMzM2MzA3Nw@@._V1_SX300.jpg",
-      "rating": "8.6/10"
-    },
-    {
-      "title": "Patton 360",
-      "id": "tt1409728",
-      "plot": "Noteworthy World War II battles of US General George S. Patton are examined.",
-      "poster": "https://ia.media-imdb.com/images/M/MV5BMTI2MjQxNTE0Nl5BMl5BanBnXkFtZTcwMjA1ODc4Mg@@._V1_SX300.jpg",
+      "title": "Cinderella",
+      "id": "tt0042332",
+      "plot": "When Cinderella's cruel stepmother prevents her from attending the Royal Ball, she gets some unexpected help from the lovable mice Gus and Jaq, and from her Fairy Godmother.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI5NTcxMjE5N15BMl5BanBnXkFtZTgwNzYyNTM3MjE@._V1_SX300.jpg",
       "rating": "7.3/10"
+    },
+    {
+      "title": "Monkeys, Go Home!",
+      "id": "tt0061989",
+      "plot": "Henry Dussard, a young American, inherits a picturesque but badly neglected olive farm in southern France and is determined to make it operational again despite cautionary advice from the ...",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NTQ0OTg0MV5BMl5BanBnXkFtZTcwMjE5NjUxMQ@@._V1_SX300.jpg",
+      "rating": "5.9/10"
+    },
+    {
+      "title": "Summer of the Monkeys",
+      "id": "tt0128648",
+      "plot": "Summer Of The Monkeys (set in 1910 on the prairies of Canada) follows the story of a young boy, Jay, who dreams of getting enough money to buy his dream horse. One summer Jay finds four ...",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5NzM4MDI4MF5BMl5BanBnXkFtZTcwMjAxMTgxMQ@@._V1_SX300.jpg",
+      "rating": "6.3/10"
     }
   ]
 }
