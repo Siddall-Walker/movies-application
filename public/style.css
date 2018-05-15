@@ -14,12 +14,43 @@ html, body {
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
     background: url(Preloader_3.gif) center no-repeat #fff;
 }
 
+.container {
+    display: flex;
+}
+
+.banner {
+    background-image: url("video-reel-clipart-1.jpg");
+    background-size: cover;
+    margin: 0 0 20px 0;
+}
+
+.logo {
+    background-color: white;
+    display: flex;
+    border: 0.5em solid black;
+    margin: 0.5em;
+    padding: 0.25em;
+}
+
+.shadows {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.shadows:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.addToCollection {
+    background-color: #721817;
+    color: white;
+}

@@ -36,25 +36,11 @@
       "rating": "6.3/10"
     },
     {
-      "title": "Terminator Genisys",
-      "id": "tt1340138",
-      "plot": "When John Connor, leader of the human resistance, sends Sgt. Kyle Reese back to 1984 to protect Sarah Connor and safeguard the future, an unexpected turn of events creates a fractured timeline.",
-      "poster": "https://ia.media-imdb.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_SX300.jpg",
-      "rating": "6.5/10"
-    },
-    {
       "title": "Lady Terminator",
       "id": "tt0095483",
       "plot": "The spirit of an ancient evil queen posesses the body of a young anthropological student, who then goes on a murderous rampage.",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUxNTk0MzE3N15BMl5BanBnXkFtZTYwNzY3Mjg5._V1_SX300.jpg",
       "rating": "5.7/10"
-    },
-    {
-      "title": "Ninja Terminator",
-      "id": "tt0199849",
-      "plot": "Three martial-arts students search for the Golden Ninja Warrior, a statue reputed to have magic powers.",
-      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMGZiNTczNWItOTdmYy00OTFjLWIwOWUtMmE3Y2QyNzBmZDJkXkEyXkFqcGdeQXVyNzg3NjQyOQ@@._V1_SX300.jpg",
-      "rating": "4.7/10"
     },
     {
       "title": "Red Dawn",
@@ -83,13 +69,6 @@
       "plot": "N/A",
       "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BZDczNDBiMzAtZDk0NC00ZTEyLWIyZDEtYWZhZDA4OWE1YTBlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTk2MzU2ODE@._V1_SX300.jpg",
       "rating": "6.5/10"
-    },
-    {
-      "title": "Red's Breakfast 2: Dawn of the Red",
-      "id": "tt0280067",
-      "plot": "Loveable serial killer, \"Red Toole\" meets his soul-mate \"Violet\". They fall instantly in love...and murder a Greek architecht. Tons of romantic fun for everyone!",
-      "poster": "N/A",
-      "rating": "5.7/10"
     },
     {
       "title": "Red Darkness Before Dawn",
@@ -251,6 +230,41 @@
       "plot": "This is a the full cut of a remake of Blade Runner originally created for Empire Magazine's Done in Sixty Seconds competition. Blade Runner 60 moves the film's action to London, and takes ...",
       "poster": "N/A",
       "rating": "4.4/10"
+    },
+    {
+      "title": "Tarzan the Ape Man",
+      "id": "tt0023551",
+      "plot": "A trader and his daughter set off in search of the fabled graveyard of the elephants in deepest Africa, only to encounter a wild man raised by apes.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BMzQzMzUzMDg5NF5BMl5BanBnXkFtZTgwNDIzMDMyMjE@._V1_SX300.jpg",
+      "rating": "7.2/10"
+    },
+    {
+      "title": "Planet of the Apes",
+      "id": "tt0133152",
+      "plot": "In 2029, an Air Force astronaut crash-lands on a mysterious planet where evolved, talking apes dominate a race of primitive humans.",
+      "poster": "https://ia.media-imdb.com/images/M/MV5BY2RlMDhlY2MtMjQ1Zi00NzI5LTgxOTgtZjliNWMzYTY3NWZkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "rating": "5.7/10"
+    },
+    {
+      "title": "Cinderella",
+      "id": "tt0042332",
+      "plot": "When Cinderella's cruel stepmother prevents her from attending the Royal Ball, she gets some unexpected help from the lovable mice Gus and Jaq, and from her Fairy Godmother.",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI5NTcxMjE5N15BMl5BanBnXkFtZTgwNzYyNTM3MjE@._V1_SX300.jpg",
+      "rating": "7.3/10"
+    },
+    {
+      "title": "Monkeys, Go Home!",
+      "id": "tt0061989",
+      "plot": "Henry Dussard, a young American, inherits a picturesque but badly neglected olive farm in southern France and is determined to make it operational again despite cautionary advice from the ...",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NTQ0OTg0MV5BMl5BanBnXkFtZTcwMjE5NjUxMQ@@._V1_SX300.jpg",
+      "rating": "5.9/10"
+    },
+    {
+      "title": "Summer of the Monkeys",
+      "id": "tt0128648",
+      "plot": "Summer Of The Monkeys (set in 1910 on the prairies of Canada) follows the story of a young boy, Jay, who dreams of getting enough money to buy his dream horse. One summer Jay finds four ...",
+      "poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY5NzM4MDI4MF5BMl5BanBnXkFtZTcwMjAxMTgxMQ@@._V1_SX300.jpg",
+      "rating": "6.3/10"
     }
   ]
 }
