@@ -41,7 +41,7 @@ function search() {
                     <input type="hidden" id="${data.Search[i].imdbID}">
                     <h5 class="card-title">${data.Search[i].Title}</h5>
                     <p class="card-text">${data.Search[i].Year}</p>
-                    <button class="addToCollection btn">Add to collection</button>
+                   
                     </div>
                     </div>`;
 
