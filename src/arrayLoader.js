@@ -56,12 +56,12 @@ function dbChecker() {
                let poster = `<img class="card-img-top" src="${data.Poster}" alt="Card image cap">`;
 
                let stars = ` <div class='movie_choice'>
-                   <div id="r1" class="rate_widget">
-                   <div class="star_1 ratings_stars"></div>
-                   <div class="star_2 ratings_stars"></div>
-                   <div class="star_3 ratings_stars"></div>
-                   <div class="star_4 ratings_stars"></div>
-                   <div class="star_5 ratings_stars"></div>
+                   <div id="${data.imdbID}" class="rate_widget">
+                   <div value="1" class="star_1 ratings_stars"></div>
+                   <div value="2" class="star_2 ratings_stars"></div>
+                   <div value="3" class="star_3 ratings_stars"></div>
+                   <div value="4" class="star_4 ratings_stars"></div>
+                   <div value="5" class="star_5 ratings_stars"></div>
                    <!--<div class="total_votes">vote data</div>-->
                </div>
                </div>`;
@@ -77,7 +77,6 @@ function dbChecker() {
                 ${rating}
                 <p class="card-text">  ${data.Plot}</p>
                 <button class="delete"   value="${data.imdbID}" type="button">delete</button>
-                <div class="rateit" data-rateit-max></div>
                 ${stars}
                 </div>
                 </div>`;
@@ -89,27 +88,61 @@ function dbChecker() {
                //Handles the delete button
                $(".delete").unbind("click").on("click",function() {
                    let firedButton = $(this).attr('value');
+                   console.log(firedButton);
                    deleteMovie(firedButton);
                    $(".container").empty();
                    dbChecker();
 
-
-
-
-
-                   $(".ratings_stars").hover(
-                       // Handles the mouseover
-                       function() {
-                           $(this).prevAll().addClass('ratings_over');
-                           $(this).nextAll().removeClass('ratings_vote');
-                       },
-                       // Handles the mouseout
-                       function() {
-                           $(this).prevAll().removeClass('ratings_over');
-                           // set_votes($(this).parent());
-                        }
-                   );
                });
+               $(".ratings_stars").hover(
+                   // Handles the mouseover
+                   function() {
+                       $(this).prevAll().addBack().addClass('ratings_over');
+                       $(this).nextAll().removeClass('ratings_vote');
+                   },
+                   // Handles the mouseout
+                   function() {
+                       $(this).prevAll().addBack().removeClass('ratings_over');
+                       // set_votes($(this).parent());
+                   }
+               );
+
+               // $('.rate_widget').each(function(i) {
+               //     let widget = this;
+               //     let out_data = {
+               //         widget_id : $(widget).attr('id'),
+               //         fetch: 1
+               //     };
+               //     $.post(
+               //         // 'ratings.php',
+               //         out_data,
+               //         function(INFO) {
+               //             $(widget).data( 'fsr', INFO );
+               //             set_votes(widget);
+               //         },
+               //         'json'
+               //     );
+               // });
+
+               // function set_votes(widget) {
+               //
+               //     let avg = $(widget).data('fsr').whole_avg;
+               //     let votes = $(widget).data('fsr').number_votes;
+               //     let exact = $(widget).data('fsr').dec_avg;
+               //
+               //     $(widget).find('.star_' + avg).prevAll().andSelf().addClass('ratings_vote');
+               //     $(widget).find('.star_' + avg).nextAll().removeClass('ratings_vote');
+               //     $(widget).find('.total_votes').text( votes + ' votes recorded (' + exact + ' rating)' );
+               // }
+               $(".ratings_stars").click(function () {
+                    let id = $(this).parent().attr('id');
+                     let rating = $(this).attr('value')
+
+               }
+
+
+               );
+
             });
        });
    });
