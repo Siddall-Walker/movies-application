@@ -94,18 +94,43 @@ function dbChecker() {
                    dbChecker();
 
                });
+
+               let clicked = 0;
+               let selectedRating = 0;
+
+               $(".ratings_stars").click(
+                   // Handles the click
+                   function() {
+                       $(this).prevAll().addBack().addClass('ratings_vote');
+                        selectedRating = ($(this).attr('value'));
+                        clicked = 1;
+
+
+
+
+                   },
+               );
                $(".ratings_stars").hover(
                    // Handles the mouseover
                    function() {
                        $(this).prevAll().addBack().addClass('ratings_over');
-                       $(this).nextAll().removeClass('ratings_vote');
+                       // $(this).nextAll().removeClass('ratings_vote');
                    },
-                   // Handles the mouseout
+                 //  Handles the mouseout if no option was clicked
+
                    function() {
-                       $(this).prevAll().addBack().removeClass('ratings_over');
-                       // set_votes($(this).parent());
+                   //     if(clicked === 0){
+                   //         $(this).prevAll().addBack().removeClass('ratings_over');
+                   // }else if (clicked === 1){
+                           $(this).prevAll().addBack().removeClass('ratings_over');
+
+                           $(this).nextAll().addBack().removeClass('ratings_over')
+                       // }
+
                    }
                );
+
+
 
                // $('.rate_widget').each(function(i) {
                //     let widget = this;
