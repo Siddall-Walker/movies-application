@@ -35,7 +35,7 @@ function dbChecker() {
                        return;
                    }
 
-                   var newMovie = {};
+                   let newMovie = {};
 
                     newMovie.title = title;
                     newMovie.id = id;
