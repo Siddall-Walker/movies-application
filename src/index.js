@@ -26,7 +26,7 @@ $('#edit').click(function () {
 $('#search').on('click',  (event) => {
     event.preventDefault();
     $(".se-pre-con").fadeOut("slow");
-    search()
+    search();
 
     // adds event listeners to elements w/ .addToCollection (add to my collection button)
     $("#movies").on('click', '.addToCollection', (event) => {
