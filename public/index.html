@@ -3,26 +3,74 @@
 <head>
     <meta charset="UTF-8" />
     <title>My Application</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
 </head>
 <body>
 
-  <div class="container">
-    <h1 class="text-center">Bootstrap 4!</h1>
-    <div class="row my-5">
-      <div class="col-sm-6 offset-sm-3">
-        <button type="button"
-                class="btn btn-lg btn-primary btn-block"
-                data-toggle="popover"
-                title="Popover title"
-                data-content="And here's some amazing content. It's very engaging. Right?">
-          Here's a Bootstrap Popover
-        </button>
-      </div>
+    <div class="se-pre-con"></div>
+
+    <div class="container jumbotron jumbotron-flex banner">
+            <div class="display-4 center logo text-white shadows" style="background-color: #721817;">JW<br>Siddall<br>Movies</div>
     </div>
-  </div>
+
+    <nav class="navbar navbar-dark text-light" style="background-color: #721817;">
+
+            <button type="button" class="btn btn-light" data-toggle="modal" data-target="#editModal" data-whatever="Edit">
+                Edit a movie
+            </button>
+
+            <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-dark" id="editModalLabel">Edit a movie</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="Title2" class="col-form-label text-dark">
+                                        Title:
+                                    </label>
+                                    <input type="text" class="form-control" id="Title2">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Rating2" class="col-form-label text-dark">
+                                        Rating 1-10:
+                                    </label>
+                                    <input type="text" class="form-control" id="Rating2">
+                                </div>
+                                <!--lsdkjh-->
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" style="background-color: #721817;" id="edit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-outline-light my-2 my-sm-0">Sort by Title</button>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="input-box">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="search">Search</button>
+            </form>
+    </nav>
+
+      <div id="movies" class="container">
+        <div class="row my-5">
+          <div class="col-sm-6 offset-sm-3">
+
+          </div>
+        </div>
+      </div>
 
     <script src="/main.js"></script>
+
 </body>
 </html>
