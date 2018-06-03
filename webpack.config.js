@@ -9,7 +9,7 @@ module.exports = {
   entry: ['promise-polyfill', 'whatwg-fetch', './src/index.js'],
   // where to put the transpiled javascript
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname),
     filename: 'main.js'
   },
 
